@@ -3,12 +3,12 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 
 const SocialMedia = () => (
 	<div className='app__social'>
-		<div>
+		<a href='https://github.com/vadimbelinovich' target='_blank' rel='noreferrer'>
 			<BsGithub />
-		</div>
-		<div>
+		</a>
+		<a href='https://www.instagram.com/vadim.belinovich/' target='_blank' rel='noreferrer'>
 			<BsInstagram />
-		</div>
+		</a>
 	</div>
 );
 
